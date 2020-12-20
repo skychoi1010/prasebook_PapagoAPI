@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Auto Phrasebook</string>
+    <string name="swipe_to_remove_items"><![CDATA[<< swipe to remove items >>]]></string>
+</resources>

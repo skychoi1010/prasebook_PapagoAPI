@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/calibri_bold"
+                android:gravity="center"
+                android:includeFontPadding="true"
+                android:padding="10dp"
+                android:text="Auto PhraseBook"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="36sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/calibri_bold"
+                android:gravity="left"
+                android:includeFontPadding="true"
+                android:text="e-mail id"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/calibri_regular"
+                android:gravity="left"
+                android:inputType="textEmailAddress"
+                android:textColor="#012C28"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/calibri_bold"
+                android:gravity="left"
+                android:includeFontPadding="true"
+                android:text="password"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="15sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/pwd_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri_regular"
+                android:gravity="left"
+                android:inputType="textPassword"
+                android:singleLine="false"
+                android:textColor="#012C28"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/radio_btn_selected"
+            android:fontFamily="@font/calibri_bold"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:text="Login"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/createAccount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/radio_btn_default"
+            android:fontFamily="@font/calibri_bold"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:text="Create Account"
+            android:textSize="24sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/skip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/calibri_bold"
+            android:gravity="center"
+            android:includeFontPadding="true"
+            android:text="continue anonymously"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+</RelativeLayout>

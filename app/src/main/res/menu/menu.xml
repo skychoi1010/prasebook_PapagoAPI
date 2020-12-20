@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigationHome"
+        android:icon="@drawable/eva_icons180"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigationPastPhrases"
+        android:icon="@drawable/eva_icons52"
+        android:title="Past Phrases" />
+
+    <item
+        android:id="@+id/navigationLogout"
+        android:icon="@drawable/eva_icons137"
+        android:title="Logout" />
+
+
+</menu>

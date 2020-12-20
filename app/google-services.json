@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "184778991528",
+    "firebase_url": "https://water-and-stretch.firebaseio.com",
+    "project_id": "water-and-stretch",
+    "storage_bucket": "water-and-stretch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184778991528:android:73c5faed75d4a5c8689f9d",
+        "android_client_info": {
+          "package_name": "edu.skku.map.MAP_PP"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184778991528-6p06ifgkvk3kdku2dent71udjdnsl09q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxS3kNJ6hWW3aVR8PVI23En_06qxo2fpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184778991528-6p06ifgkvk3kdku2dent71udjdnsl09q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
